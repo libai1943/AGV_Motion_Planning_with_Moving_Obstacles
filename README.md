@@ -1,19 +1,12 @@
-# AGV_Motion_Planning_with_Moving_Obstacles
 % ==============================================================================
-% Source Codes for "Real-Time Trajectory Planning for AGV in the Presence
-% of Moving Obstacles: A First-Search-Then-Optimization Approach".
+% % Source Codes for "Fast Trajectory Planning for AGV in the Presence of
+% Moving Obstacles: A Combination of 3-dim A* Search and QCQP".
+% Bai Li, Youmin Zhang, Yi Liu, Xiang Zhong, Hangjie Cen, Xiaoyan Peng, Qi Kong
+% 33rd Chinese Control and Decision Conference (CCDC), accepted on Feb. 15, 2021.
 % ==============================================================================
-%
-%   Copyright (C) 2019 Bai Li
-%   Users are suggested to cite the following article when utilizing the
-%   source codes. Bai Li et al., "Real-Time Trajectory Planning for AGV in
-%   the Presence of Moving Obstacles: A First-Search-Then-Optimization
-%   Approach", 2019 IEEE International Conference on Advanced Robotics and
-%   Mechatronics (ICARM), 2019.
-%
-%   License GNU General Public License v3.0
-% ==============================================================================
-%
-% If there are inquiries, please contact libai@zju.edu.cn
-%
+% Copyright (C) 2021 Bai Li. Users MUST cite the related articles
+% mentioned in http://grjl.hnu.edu.cn/p/2019256
+% License GNU General Public License v3.0
+% Should request a licensed AMPL with IPOPT. Put the binary files into the
+% current folder.
 % ==============================================================================
