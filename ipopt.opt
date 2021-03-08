@@ -1,0 +1,6 @@
+max_iter	1000
+max_cpu_time	100
+tol	1e-6
+mu_strategy	adaptive
+#linear_solver	ma57
+print_level 0

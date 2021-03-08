@@ -1,0 +1,27 @@
+reset;
+model C1.mod;
+include ig.INIVAL;
+option solver ipopt;
+
+shell ("del " & ("flag.txt"));
+printf "0">>("flag.txt");
+close ("flag.txt");
+
+solve;
+
+shell ("del " & ("x.txt"));
+shell ("del " & ("y.txt"));
+for {i in {1..Nfe}} {
+	printf "%5.8f; ", x[i]>>("x.txt");
+	printf "%5.8f; ", y[i]>>("y.txt");
+};
+close ("x.txt");
+close ("y.txt");
+
+shell ("del " & ("flag.txt"));
+if match (solve_message, "Optimal") > 0 then {
+	printf "1">>("flag.txt");
+} else {
+printf "0">>("flag.txt");
+};
+close ("flag.txt");
