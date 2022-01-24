@@ -1,12 +1,13 @@
-% ==============================================================================
-% % Source Codes for "Fast Trajectory Planning for AGV in the Presence of
-% Moving Obstacles: A Combination of 3-dim A* Search and QCQP".
-% Bai Li, Youmin Zhang, Yi Liu, Xiang Zhong, Hangjie Cen, Xiaoyan Peng, Qi Kong
-% 33rd Chinese Control and Decision Conference (CCDC), accepted on Feb. 15, 2021.
-% ==============================================================================
-% Copyright (C) 2021 Bai Li. Users MUST cite the related articles
-% mentioned in http://grjl.hnu.edu.cn/p/2019256
-% License GNU General Public License v3.0
-% Should request a licensed AMPL with IPOPT. Put the binary files into the
-% current folder.
-% ==============================================================================
+# AGV Motion Planner to deal with Moving Obstacles
+
+Matlab Source Codes for Bai Li, Youmin Zhang, Yakun Ouyang, Yi Liu, Xiang Zhong, Hangjie Cen, and Qi Kong, "Fast trajectory planning for AGV in the presence of moving obstacles: A combination of 3-dim A* search and QCQP", 33rd Chinese Control and Decision Conference (CCDC), pp. 7549-7554, 2021.
+
+## Acknowledgement
+ Copyright (C) 2022 Bai Li
+
+Users must cite the following article if they use the source codes to conduct simulations in their new publications.
+Bai Li, Youmin Zhang, Yakun Ouyang, Yi Liu, Xiang Zhong, Hangjie Cen, and Qi Kong, "Fast trajectory planning for AGV in the presence of moving obstacles: A combination of 3-dim A* search and QCQP", 33rd Chinese Control and Decision Conference (CCDC), pp. 7549-7554, 2021.
+
+Should request a licensed AMPL with IPOPT. Put the binary files into the current folder.
+
+License GNU General Public License v3.0
